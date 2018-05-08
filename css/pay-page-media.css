@@ -1,0 +1,78 @@
+@media (max-width: 992px) {
+    .pay_page {
+        margin-top: 40px;
+    }
+    .pay_page-package span{
+        font-size: 25px;
+    }
+    .pay_page-package{
+        width: 40.8%;
+        padding: 4px 40px 5px 0;
+        border-radius: 0 22px 22px 0;
+        margin-right: 78px;
+    }
+    .pay_page-form p{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .pay_page-placement-radio label{
+        font-size: 18px;
+    }
+    .pay_page-payment-radio label{
+        font-size: 18px;
+    }
+    .pay_page-form{
+        margin-top: 7px;
+        padding-right: 24px;
+    }
+    .pay_page-payment-img img{
+        max-width: 73px;
+        height: auto;
+        max-height: 23px;
+    }
+    .pay_page-payment-img{
+        height: 29px;
+        width: 85px;
+        margin-right: 1px;
+    }
+    .pay_page-payment-btn a{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .pay_page-payment-items{
+        margin-bottom: 18px;
+        margin-left: 10px;
+    }
+    .pay_page-placement-items {
+        margin-bottom: 8px;
+        margin-left: 10px;
+    }
+    .pay_page-placement-radio label input{
+        margin-right: 8px;
+    }
+    .pay_page-payment-radio label input {
+        margin-right: 8px;
+    }
+    .pay_page-payment-radio-images label input {
+        margin-right: 5px;
+    }
+    .pay_page-payment-radio-images label .pay_page-payment-img:last-child{
+        margin-right: 0;
+    }
+}
+@media (max-width: 700px) {
+    .pay_page-form{
+        display: block;
+        padding: 0 10px;
+    }
+    .pay_page-package{
+        width: 300px;
+        text-align: left;
+        padding-left: 20px;
+        margin: 0 0 15px 0;
+    }
+    .pay_page{
+        margin-top: 23px;
+    }
+}

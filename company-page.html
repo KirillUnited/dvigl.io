@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<title>Каталог компаний</title>
+
+	<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css">
+	<!-- <script src="https://api-maps.yandex.ru/2.1/?load=package.standard&amp;lang=ru-RU"></script> -->
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/company-page.css">
+	<link rel="stylesheet" type="text/css" href="css/company-page-media.css">
+	<script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+	<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper company-catalog__wrapper">
+		<!-- BEGIN HEADER -->
+		<header>
+			<div class="header__top">
+				<div class="container">
+					<img src="img/BANNER1.png" alt="BANNER1" title="BANNER1">
+				</div>
+			</div>
+			<div class="header__middle">
+				<!-- navbar -->
+				<div class="container">
+					<div class="row">
+						<div class="navbar-header">
+							<a href="#">
+								<img class="block-mobile" src="img/Logo white.png" alt="Drive24" title="Главная">								
+							</a>
+							<button class="btn btn-default" type="submit">
+								<img src="img/search.png" alt="search">
+							</button>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<i class="ion-navicon-round"></i>                   
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<div class="row">
+								<ul class="header__middle_menu">
+									<li><a href="#">новости</a></li>
+									<li><a class="active" href="#">каталог</a></li>
+								</ul>
+								<ul class="header__middle_social">
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+
+							<div class="row">
+								<div class="header__middle_search col-md-6">
+									<form>
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Что хотите найти?">
+											<span class="input-group-addon location">
+												<img src="img/map-marker.png" alt="map-marker">
+												<a href="#">Минск</a>
+											</span>
+											<div class="input-group-btn">
+												<button class="btn btn-default" type="submit">
+													<img src="img/search.png" alt="search">
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="header__middle_login navbar-right">
+									<a class="add" href="#">Добавить компанию</a>
+									<a class="login" href="#">Войти</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- end navbar -->
+
+			</div>
+			<div class="header__bottom">
+				<div class="container">
+					<div class="header__bottom_menu">
+						<a href="#">СТО и ремонт</a>
+						<a href="#">Автопомощь</a>
+						<a href="#">Автозаправки и мойки</a>
+						<a href="#">ГАИ, гостехосмотр, стоянки</a>
+						<a href="#">Обучением</a>
+						<a href="#">Покупка и продажа</a>
+						<a href="#">Финансы и страхование</a>
+					</div>		
+				</div>
+			</div>
+
+
+		</header>
+
+
+		<!-- END HEADER -->
+
+		<!-- BEGIN MAIN -->
+		<section class="main">
+			<div class="container">
+				<div class="row">
+					<ol class="breadcrumb">
+						<li><a href="#">каталог</a></li>
+						<li><a href="#">СТО и ремонт</a></li>
+						<li><a href="#">СТО</a></li>
+						<li class="active"><span>Автоцентр Малиновка</span></li>
+					</ol>
+				</div>
+			</div>
+			<div class="page-content workarea">
+				<div class="container">
+					<div class="workarea-wrap">
+						<div class="company-page">
+							<div class="company-page_head">
+								<div class="company-page_head-wrap">
+									<div class="company-page_head-logo">
+										<img src="img/LOGO.png" alt="">
+									</div>
+									<div class="company-page_head-info">
+										<div class="company-page_head-rating">
+											<div class="company-page_head-stars">
+												<img src="img/star.png" alt="">
+												<img src="img/star.png" alt="">
+												<img src="img/star.png" alt="">
+												<img src="img/star.png" alt="">
+												<img src="img/star.png" alt="">
+											</div>
+											<span class="company-page_head-stars-count">6 отзывов</span>
+										</div>
+										<div class="company-page_head-site">
+											<a href="#">www.automalina.by</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="company-page_description">
+								<div class="company-page_description-wrap">
+									<div class="company-page_description-text">
+										<p class="company-page_desc-adress">г. Минск, ул. Cергея Есенина, 134 А</p>
+										<div class="company-page_desc-phone">
+											<a href="tel:+375172748322">+375 17 2748322</a>
+											<a href="tel:+375447730099">+375 44 7730099</a>
+										</div>
+										<p class="company-page_desc-time">
+											Режим работы:<br>
+											Пн-сб: 09:00–20:00<br>	
+											Вс: 9:00–18:00	
+										</p>
+										<div class="company_mobile-site">
+											<a href="#">www.automalina.by</a>
+										</div>
+										<div class="company_mobile-communications">
+											<div class="company_mobile-call">
+												<span>Позвонить</span>
+												<div class="company_mobile-call_hidden">
+													<a href="tel:+375172748322">+375 17 2748322</a>
+													<a href="tel:+375447730099">+375 44 7730099</a>
+												</div>
+											</div>
+											<div class="company_mobile-mode">
+												<span>Режим работы</span>
+												<div class="company_mobile-mode_hidden">
+													<p>Пн-сб: 09:00–20:00</p>
+													<p>Вс: 9:00–18:00</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="company-page_map">
+										<div id="map" style="width: 400px; height: 220px" class="company_map"></div>
+										<input type="button" value="Развернуть карту" class="company-page_map-btn"/>
+										<script type="text/javascript">
+										    ymaps.ready(init);
+									        var myMap, 
+									            myPlacemark,
+									            fullScreen = false;
+
+									        function init(){ 
+									            myMap = new ymaps.Map("map", {
+									                center: [53.866269, 27.430686],
+									                zoom: 16,
+									                controls: ['zoomControl', 'geolocationControl']
+									            });    
+
+									            $('body').on('click', '.company-page_map-btn', function () {
+													$('#map').toggleClass('maxMap')
+													myMap.container.enterFullscreen();
+												});
+									            myPlacemark = new ymaps.Placemark([53.866269, 27.430686], {
+									                balloonContent: 'Столица России'
+									            });
+									            
+									            myMap.geoObjects.add(myPlacemark);
+									        }
+									        
+									        
+										</script>
+									</div>
+								</div>
+							</div>
+							<div class="company-page_content">
+								<div class="company-page_content-wrap">
+									<div class="company-page_banner">
+										<a href="#">
+											<img src="img/Banner-main.png" alt="">
+										</a>
+									</div>
+									<div class="company-page_content-slider">
+										<img src="img/sl-comp.jpg" alt="">
+										<img src="img/sl-comp.jpg" alt="">
+										<img src="img/sl-comp.jpg" alt="">
+									</div>
+									<script type="text/javascript">
+										if($('.company-page_content-slider').length > 0)    {
+								        $('.company-page_content-slider').slick({
+								            slidesToShow: 1,
+								            slidesToScroll: 1,
+								            infinite: true,
+								            dots: false,
+								            prevArrow: '<div class="company_arrow_prev"></div>',
+								            nextArrow: '<div class="company_arrow_next"></div>',
+								        });
+								    }
+									</script>
+									<div class="company-page_content-text">
+										<p class="company-page_content-text-bold">Мы гарантируем качество</p>
+										<ul>
+											<li>Выполнение технического обслуживания быстро и эффективно.</li>
+											<li>Цена в процессе ремонта не изменяется.</li>
+											<li>В работе используется современное технолог ическое оборудование и инструменты.</li>
+										</ul>
+										<p class="company-page_content-text-bold">Всегда учитываются особенности марки автомобиля и индивидуальные пожелания заказчика!</p>
+										<br>
+										<p>Нам доверяют свои автомобили в том числе и многие организации. Для них мы предлагаем быстрый и эффективный сервис с достойным
+										соотношением "цена - качество". Большинство сотрудников этих фирм с удовольствием обслуживает у нас и свой личный транспорт.</p>
+										<a href="javascript:void(0)" class="company-page_content-show-more">Читать больше</a>
+										<div class="company-page_content-hidden">
+											<div class="company-page_content_img-block">
+												<div class="company-page_content_img-item"><img src="img/cont-img.jpg" alt=""></div>
+												<div class="company-page_content_img-item"><img src="img/cont-img.jpg" alt=""></div>
+											</div>
+											<p>Мы ценим время наших клиентов, всегда готовы рассчитать стоимость ремонта и для удобства организовали онлайн-заявку на сайте.</p>
+											<br>
+											<p>С введением новых денег в стране мы начинаем новые акции направленные на улучшение вашего настроения.</p><br>
+											<p>ООО "Бетамоторс" <br>
+												УНП 192209860</p>
+										</div>
+									</div>
+								</div>
+
+									<div class="company-page_similar">
+										<h2>Похожие компании</h2>
+										<div class="company-page_similar-wrap">
+											<div class="company-page_similar-item">
+												<a href="#" style="background: url('img/sim-comp.jpg') no-repeat; background-size: cover;"></a>
+												<div class="company-page_similar-item-logo">
+													<img src="img/sim-l1.jpg" alt="">
+												</div>
+											</div>
+											<div class="company-page_similar-item">
+												<a href="#" style="background: url('img/sim-comp.jpg') no-repeat; background-size: cover;"></a>
+												<div class="company-page_similar-item-logo">
+													<img src="img/sim-l2.jpg" alt="">
+												</div>
+											</div>
+											<div class="company-page_similar-item">
+												<a href="#" style="background: url('img/sim-comp.jpg') no-repeat; background-size: cover;"></a>	
+												<div class="company-page_similar-item-logo">
+													<img src="img/sim-l3.jpg" alt="">
+												</div>
+											</div>
+											<div class="company-page_similar-item">
+												<a href="#" style="background: url('img/sim-comp.jpg') no-repeat; background-size: cover;"></a>
+												<div class="company-page_similar-item-logo">
+													<img src="img/sim-l4.jpg" alt="">
+												</div>
+											</div>
+											<div class="company-page_similar-item">
+												<a href="#" style="background: url('img/sim-comp.jpg') no-repeat; background-size: cover;"></a>
+												<div class="company-page_similar-item-logo">
+													<img src="img/sim-l4.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<script>
+										if ($('.company-page_similar-wrap').length > 0) {
+												$('.company-page_similar-wrap').slick({
+													slidesToShow: 4,
+													slidesToScroll: 1,
+													infinite: true,
+													dots: false,
+													arrows: false,
+													responsive: [
+														{
+															breakpoint: 560,
+															settings: {
+																// centerMode: true,
+																variableWidth: true
+															}
+														}
+													]
+												});
+											}
+										</script>
+									</div>
+								<div class="company-page_reviews">
+									<h2>отзывы (6)</h2>
+									<div class="company-page_reviews-wrap">
+										<div class="company-page_reviews_leave-your">
+											<div class="company-page_reviews_leave-your-wrap">
+												<div class="company-page_reviews_leave-your-img">
+													<img src="img/rew.png" alt="">
+												</div>
+												<div class="company-page_reviews_leave-your-assessment"> 
+													<div class="company-page_reviews_leave-your-assessment-left">
+														<span>Ваша оценка</span>
+														<div class="company-page_reviews_leave-your-stars">
+															<div class="company-page_starts-pat">
+																<div class="company-page_starts-pat-back"></div>
+															</div>
+														</div>
+														<a href="javascript:void(0)">оставить отзыв</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="company-page_reviews_items">
+											<div class="company-page_reviews_items-wrap">
+												<div class="company-page_reviews_item">
+													<div class="company-page_reviews_item-img">
+														<img src="img/rew.png" alt="">
+														<p class="company-page_reviews_item-name">Вася</p>
+														<p class="company-page_reviews_item-time">3 мин. назад</p>
+													</div>
+													<div class="company-page_reviews_item-info">
+														<div class="company-page_reviews_item-info-stars">
+															<div class="company-page_reviews_leave-your-stars">
+																<div class="company-page_starts-pat">
+																	<div class="company-page_starts-pat-back" style="width: 100%;"></div>
+																</div>
+															</div>
+														</div>
+														<div class="company-page_reviews_item-head">
+															<p>Супер сервис!</p>
+														</div>
+														<div class="company-page_reviews_item-message">
+															<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+															Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+															type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+															remaining essentially unchanged. </p>
+														</div>
+														<div class="company-page_reviews_item-minuses">
+															<span class="company-page_reviews_item-minuses-head">Минусы:</span>
+															<span>нет</span>
+														</div>
+														<div class="company-page_reviews_item-reply">
+															<a href="#" class="company-page_reviews_item-reply-text">Ответить</a>
+															<a href="#" class="company-page_reviews-like"></a>
+															<a href="#" class="company-page_reviews-dislike"></a>	
+														</div>
+													</div>
+												</div>
+
+												<div class="company-page_reviews_item">
+													<div class="company-page_reviews_item-main">
+														<div class="company-page_reviews_item-img">
+															<img src="img/rew.png" alt="">
+															<p class="company-page_reviews_item-name">Вася</p>
+															<p class="company-page_reviews_item-time">3 мин. назад</p>
+														</div>
+														<div class="company-page_reviews_item-info">
+															<div class="company-page_reviews_item-info-stars">
+																<div class="company-page_reviews_leave-your-stars">
+																	<div class="company-page_starts-pat">
+																		<div class="company-page_starts-pat-back" style="width: 60%;"></div>
+																	</div>
+																</div>
+															</div>
+															<div class="company-page_reviews_item-head">
+																<p>Супер сервис!</p>
+															</div>
+															<div class="company-page_reviews_item-message">
+																<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+																Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+																type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+																remaining essentially unchanged. </p>
+															</div>
+															<div class="company-page_reviews_item-reply">
+																<a href="#" class="company-page_reviews_item-reply-text">Ответить</a>
+																<span class="company-page_like-count">1</span>
+																<a href="#" class="company-page_reviews-like active"></a>
+																<span class="company-page_dislike-count">3</span>
+																<a href="#" class="company-page_reviews-dislike active"></a>	
+															</div>
+														</div>
+													</div>
+													<div class="company-page_reviews_item-answer">
+														<div class="company-page_reviews_item-img">
+															<img src="img/rew.png" alt="">
+															<p class="company-page_reviews_item-name">Вася</p>
+															<p class="company-page_reviews_item-time">3 мин. назад</p>
+															<div class="company-page_answer-owner">
+																<span>Ответил Васе</span>
+															</div>
+														</div>
+														<div class="company-page_reviews_item-info">
+															<div class="company-page_reviews_item-info-stars">
+														
+															</div>
+															<div class="company-page_reviews_item-message">
+																<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+																	dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+																	book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+																	</p>
+															</div>
+															<div class="company-page_reviews_item-reply">
+																<a href="#" class="company-page_reviews_item-reply-text">Ответить</a>
+																<a href="#" class="company-page_reviews-like"></a>
+																<a href="#" class="company-page_reviews-dislike"></a>
+															</div>
+														</div>
+													</div>
+													<div class="company-page_watch-more">
+														<a href="#">смотреть больше отзывов</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="company-page_reviews_add">
+											<div class="company-page_reviews_add-wrap">
+												<div class="company-page_reviews_your-rew">
+													<div class="company-page_reviews_your-rew-title">
+														<p>Ваш отзыв</p>
+													</div>
+													<textarea name="" id="" cols="30" rows="10"></textarea>
+												</div>
+												<div class="company-page_reviews_your-pros">
+													<div class="company-page_reviews_your-rew-title">
+														<p>Плюсы</p>
+													</div>
+													<textarea name="" id="" cols="30" rows="10"></textarea>
+												</div>
+												<div class="company-page_reviews_your-minuses">
+													<div class="company-page_reviews_your-rew-title">
+														<p>Минусы</p>
+													</div>
+													<textarea name="" id="" cols="30" rows="10"></textarea>
+												</div>
+												<div class="company-page_reviews_your-bottom">
+													<div class="company-page_reviews_your-bottom-wrap">
+														<div class="company-page_reviews_your-bottom-stars">
+															<span>Ваша оценка</span>
+														</div>
+														<div class="company-page_reviews_leave-your-stars">
+															<div class="company-page_starts-pat">
+																<div class="company-page_starts-pat-back"></div>
+															</div>
+														</div>
+														<div class="company-page_reviews_your-bottom-button">
+															<button type="submit">оставить отзыв</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="latest_news">
+								<h2>Свежие новости</h2>
+								<div class="latest_news-wrap">
+									<div class="latest_news-item">
+										<img src="img/last-news.jpg" alt="">
+										<p>После покраски на высоте машина покрылась белыми точками</p>
+									</div>
+									<div class="latest_news-item">
+										<img src="img/last-news.jpg" alt="">
+										<p>После покраски на высоте машина покрылась белыми точками</p>
+									</div>
+									<div class="latest_news-item">
+										<img src="img/last-news.jpg" alt="">
+										<p>После покраски на высоте машина покрылась белыми точками</p>
+									</div>
+									<div class="latest_news-item">
+										<img src="img/last-news.jpg" alt="">
+										<p>После покраски на высоте машина покрылась белыми точками</p>
+									</div>
+								</div>
+							</div>
+							<div class="company-page_banner">
+								<a href="#">
+									<img src="img/unnews.jpg" alt="">
+								</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		<!-- END MAIN -->
+
+		<!-- BEGIN FOOTER -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer__menu col-md-9 col-sm-8 col-xs-12">
+						<ul class="footer__menu_link">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Реклама</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Манифест</a></li>
+							<li><a href="#">Правила</a></li>
+							<li><a href="#">Публичный договор</a></li>
+							<li><a href="#">Поддержка пользователей</a></li>
+						</ul>
+					</div>
+					<div class="footer__social col-md-3 col-sm-4 col-xs-12">
+						<ul class="footer__social_link">
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/vk.png" alt="vk">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/fb.png" alt="fb">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/insta.png" alt="insta">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/ok.png" alt="ok">
+								</a>
+							</li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+
+		<!-- POP-UPs -->
+		<div class="popups">
+
+			<div class="popup__sign-in popup">
+				<div class="close">
+					<img src="img/close.png" alt="close">
+				</div>
+				<div class="popup__content">
+					<h2>Добро пожаловать!</h2>
+					<form action="">
+						<input type="email" class="form-control" placeholder="Введите email">
+						<input type="password" class="form-control" placeholder="Введите пароль">
+						<button class="btn btn-default" type="submit">
+							ВОЙТИ
+						</button>
+					</form>
+					<div class="remember-password">
+						<a href="#">Забыли пароль или не можете войти?</a>
+					</div>
+					<div class="registration">
+						<a href="#">РЕГИСТРАЦИЯ</a>	
+					</div>
+					<div class="sign-in__social">
+						<h3>Войти с помощью</h3>
+						<ul class="sign-in__social_links list-unstyled">
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/google.png" alt="google" title="google"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/VK.png" alt="VK" title="VK"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/facebook.png" alt="facebook" title="facebook"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/OK.png" alt="OK" title="OK"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="popup__sign-up popup">
+				<div class="close">
+					<img src="img/close.png" alt="close">
+				</div>
+				<div class="popup__content">
+					<h2>Добро пожаловать!</h2>
+					<form action="">
+						<input type="text" class="form-control" placeholder="Введите Ваше имя">
+						<input type="email" class="form-control" placeholder="Введите email">
+						<input type="password" class="form-control" placeholder="Введите пароль">
+						<input type="password" class="form-control" placeholder="Введите повторно пароль">
+						<button class="btn btn-default" type="submit">
+							ЗАРЕГИСТРИРОВАТЬСЯ
+						</button>
+					</form>
+					<p>Регистрируясь, вы соглашаетесь с <a href="#">правилами</a>.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- END POP-UP -->
+	</div>
+
+	<!-- scripts -->
+
+
+	<script type="text/javascript" src="libs/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/company-page.js"></script>
+</body>
+</html>

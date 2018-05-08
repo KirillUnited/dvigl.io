@@ -1,0 +1,183 @@
+.main-banner {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1220px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.main-banner img {
+    width: 100%;
+}
+
+.tariff-wrapper .container {
+    max-width: 1091px;
+}
+
+.tariff-head {
+    display: table;
+    width: 100%;
+    margin-bottom: 49px;
+    padding: 56px 62px 4px 55px;
+    border-bottom: 1px solid #bbbbbb;
+    color: #000;
+}
+
+.tariff-head .tariff-name {
+    display: inline-block;
+    font-size: 30px;
+    font-family: "MyriadProLight";
+}
+
+.tariff-head .tariff-name span {
+    font-family: "MyriadProSemibold";
+}
+
+.tariff-head .tariff-validity {
+    margin-top: 14px;
+    float: right;
+    font-family: "MyriadProSemibold";
+    font-size: 16px;
+}
+
+.tariff-wrapper .workarea h1 {
+    margin-bottom: 34px;
+    font-family: "MyriadProBold";
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tariff__list {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.tariff__list .list__item {
+    position: relative;
+    display: inline-block;
+    margin: 0 9px 20px;
+    vertical-align: top;
+    width: 311px;
+    height: 405px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.tariff__list .list__item.start {
+    border: 1px solid #24546b;
+}
+
+.tariff__list .list__item.standart {
+    border: 1px solid #fda527;
+}
+
+.tariff__list .list__item.premium {
+    border: 1px solid #4285f4;
+}
+
+.tariff__list .list__item.shadow {
+    -webkit-box-shadow: 0px 2px 12.22px 0.78px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 2px 12.22px 0.78px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 12.22px 0.78px rgba(0, 0, 0, 0.12);
+}
+
+.tariff__list .item__name {
+    margin-bottom: 23px;
+    padding-bottom: 7px;
+    font-family: "MyriadProBold";
+    font-size: 30px;
+    line-height: 47px;
+    color: #fff;
+}
+
+.start .item__name {
+    background-color: #24546b;
+}
+
+.standart .item__name {
+    background-color: #fda527;
+}
+
+.premium .item__name {
+    background-color: #4285f4;
+}
+
+.tariff__list .item__info {
+    padding: 0 16px 0 20px;
+    text-align: left;
+    color: #010101;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "MyriadProLight";
+}
+
+.tariff__list .item__info p {
+    margin: 0 0 17px;
+}
+
+.tariff__list .item__price {
+    position: absolute;
+    bottom: 94px;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+}
+
+.tariff__list .item__price span {
+    font-size: 18px;
+}
+
+.start .item__price{
+    color: #24546b;
+}
+
+.standart .item__price {
+    color: #fda527;
+}
+
+.premium .item__price {
+    color: #4285f4;
+}
+
+.tariff__list a.item__link {
+    position: absolute;
+    bottom: 29px;
+    left: 50%;
+    width: 200px;
+    padding: 8px 0 7px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.tariff__list .start a.item__link {
+    padding: 7px 0 6px;
+    color: #24546b;
+    border: 1px solid #24546b;
+}
+
+.tariff__list .standart a.item__link {
+    color: #fff;
+    background-color: #fda527;
+}
+
+.tariff__list .premium a.item__link {
+    color: #fff;
+    background-color: #4285f4;
+}
+
+.tariff-wrapper footer {
+    padding-top: 91px;
+}

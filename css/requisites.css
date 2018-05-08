@@ -1,0 +1,96 @@
+.requisites-wrapper .workarea-wrap {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.requisites-wrapper .workarea h1{
+    margin: 64px 0 35px;
+    font-family: "MyriadProBold";
+    font-size: 30px;
+}
+
+.requisites-form {
+    margin-bottom: 20px;
+}
+
+.requisites-form .form__item {
+    display: table;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 18px;
+    color: #010101;
+}
+
+.requisites-form .form__item label {
+    margin-bottom: 7px;
+}
+
+.requisites-form .form__item input {
+    width: 100%;
+    padding: 8px 13px;
+    font-size: 16px;
+    border: 1px solid #acacac;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.requisites-form .form__item input:focus {
+    border: 2px solid rgb(66, 133, 244);
+    padding: 7px 12px;
+}
+
+.requisites-form .form__item input::placeholder{
+    color: #a0a0a0;
+}
+
+.requisites-form .form__item input::-webkit-input-placeholder{
+    color: #a0a0a0;
+}
+
+.requisites-form .form__item input::-moz-placeholder{
+    color: #a0a0a0;
+}
+
+.requisites-form .form__item input:-moz-placeholder{
+    color: #a0a0a0;
+}
+
+.requisites-form .form__item input:-ms-input-placeholder {
+    color: #a0a0a0;
+}
+
+.requisites-form .item__wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.requisites-form .item__wrap:first-child {
+    width: 53.5%;
+}
+
+.requisites-form .item__wrap:last-child {
+    width: 43.1%;
+    float: right;
+}
+
+.requisites-form button {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    width: 260px;
+    height: 40px;
+    background-color: #4285f4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.requisites-wrapper footer {
+    padding-top: 86px;
+}

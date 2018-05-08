@@ -1,0 +1,105 @@
+@media screen and (max-width: 992px) {
+
+    .coins-content {
+        padding-top: 13px;
+        background: url(../img/coin-tablet.png) center 63px no-repeat,
+        url(../img/coin-bg-tablet.png) center 95px no-repeat;
+    }
+
+    .content-head {
+        max-width: 364px;
+        font-size: 28px;
+        line-height: 31px;
+    }
+
+    .coins-content .info-list {
+        margin-top: 103px;
+        margin-bottom: 21px;
+    }
+
+    .coins-content .list-item {
+        margin-bottom: -1px;
+        font-size: 22px;
+        line-height: 22px;
+        height: 44px;
+    }
+
+    .coins-content .list-item:nth-child(2n) {
+        padding-right: 47px;
+    }
+
+    .coins-content .list-item:nth-child(2n + 1) {
+        padding-left: 48px;
+    }
+
+    .content-head.buy {
+        margin-top: 173px;
+    }
+
+    .coins-content a.login__btn {
+        width: 100%;
+        max-width: 320px;
+        margin: 102px auto 0;
+        padding: 10px 0 8px;
+    }
+
+    .coins-content a.registration__btn {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .coins__wrapper .breadcrumb {
+        display: none;
+    }
+
+    .coins-content {
+        padding-top: 31px;
+        background: url(../img/coin-mobile.png) center 123px no-repeat,
+        url(../img/coin-bg-mobile.png) center 95px no-repeat;
+    }
+
+    .content-head {
+        margin: 0 -2px;
+        font-size: 25px;
+        line-height: 26px;
+    }
+
+    .coins-content .info-list {
+        margin-top: 65px;
+        margin-bottom: 34px;
+    }
+
+    .coins-content .list-item {
+        margin-bottom: -10px;
+        font-size: 20px;
+    }
+
+    .coins-content .list-item:nth-child(2n + 1) {
+        padding-left: 30px;
+    }
+
+    .coins-content .list-item:nth-child(2n) {
+        padding-right: 32px;
+    }
+
+    .content-head.buy {
+        max-width: 288px;
+        margin-top: 138px;
+    }
+
+    .coins-content a.login__btn {
+        max-width: 260px;
+        margin: 58px auto 0;
+        padding: 12px 0 8px;
+        font-size: 14px;
+    }
+
+    .coins-content a.registration__btn {
+        margin-top: 16px;
+    }
+
+    .coins__wrapper footer {
+        padding-top: 36px;
+    }
+}

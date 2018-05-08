@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    .requisites-wrapper footer {
+        padding-top: 53px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .requisites-wrapper .workarea h1{
+        margin: 34px 0 26px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .requisites-form {
+        padding: 0 5px;
+    }
+
+
+    .requisites-form .form__item {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    .requisites-form .item__wrap:first-child,
+    .requisites-form .item__wrap:last-child {
+        float: none;
+        display: block;
+        width: auto;
+    }
+
+    .requisites-form .item__wrap:first-child {
+        margin-bottom: 16px;
+    }
+
+    .requisites-form button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .requisites-wrapper footer {
+        padding-top: 19px;
+    }
+}

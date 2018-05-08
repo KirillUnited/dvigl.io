@@ -1,0 +1,402 @@
+.main-news__block {
+    margin-top: -10px;
+    font-size: 0;
+}
+
+.main-news__block .left-side {
+    display: inline-block;
+    width: 53.5%;
+    padding-right: 4px;
+    vertical-align: top;
+}
+
+.main-news__block .left-news {
+    width: 61.8%;
+    padding-right: 4px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-news__block .news-item {
+    display: block;
+    background-color: #acacac;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-news__block .big-news {
+    height: 265px;
+}
+
+
+.main-news__block .small-news {
+    display: inline-block;
+    width: calc(50% - 2px);
+    height: 130px;
+}
+
+.main-news__block .small-news:last-child {
+    margin-left: 4px;
+}
+
+.main-news__block .center-news {
+    display: inline-block;
+    vertical-align: top;
+    width: 38.2%;
+}
+
+.main-news__block .center-news .news-item {
+    height: 130px;
+}
+
+.main-news__block .right-side {
+    display: inline-block;
+    width: 46.5%;
+    vertical-align: top;
+}
+
+.main-news__block .right-news {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 244px);
+    margin-right: 4px;
+}
+
+.main-news__block .right-news .news-item {
+    margin-bottom: 6px;
+    height: 197px;
+}
+
+.main-news__block .banner__wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-information {
+    margin: 35px 0 41px;
+    padding: 24px 0 25px;
+    background-color: #f8f8f8;
+}
+
+.main-information__wrap {
+    display: table;
+    width: 100%;
+}
+
+.main-information .fuel-price,
+.main-information .weather {
+    display: table-cell;
+    width: 50%;
+}
+
+.main-information .fuel-price {
+    padding-right: 77px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.main-information .head {
+    margin-bottom: 36px;
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+    line-height: 0.8;
+    font-family: "MyriadProBold";
+}
+
+.fuel__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 440px;
+    text-align: justify;
+    -ms-text-align-last: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
+
+.fuel__list .list__item {
+    display: inline-block;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.fuel__list .item__name {
+    width: 45px;
+    height: 60px;
+    margin: 0 auto 10px;
+    padding-top: 22px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.fuel__list .item__price {
+    font-family: "MyriadProLight";
+    font-size: 18px;
+    color: #000;
+}
+
+.main-information .weather {
+    padding-left: 90px;
+}
+
+.main-information .weather__text {
+    display: inline-block;
+    width: calc(100% - 118px);
+    vertical-align: top;
+    margin-top: 3px;
+    font-size: 30px;
+    font-family: "MyriadProLight";
+    color: #000;
+}
+
+.weather__img {
+    display: inline-block;
+    width: 65px;
+    vertical-align: top;
+    margin-right: 50px;
+}
+
+.weather__img img {
+    width: 100%
+}
+
+.main-information .weather__text span {
+    font-family: "MyriadProBold";
+}
+
+.content-banner {
+    width: 240px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.content-banner img {
+    width: 100%;
+}
+
+.second-news__block {
+    margin-top: 40px;
+}
+
+.second-news__item .left-side {
+    display: inline-block;
+    width: calc(100% - 241px);
+    vertical-align: top;
+    margin-right: -2px;
+    padding-right: 10px;
+}
+
+.second-news__item .right-side {
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+}
+
+.second-news__item a {
+    text-decoration: none;
+}
+
+.second-news__item .news-item {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #acacac;
+    vertical-align: bottom;
+    background-size: cover;
+    background-position: center;
+}
+
+.second-news__item .news-item:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0.05) 95%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0.05) 95%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0.05) 95%, rgba(0,0,0,0) 100%);
+    opacity: 0.851;
+}
+
+.second-news__item .big-news {
+    height: 430px;
+}
+
+.second-news__item .small-news {
+    display: inline-table;
+    height: 290px;
+    width: calc(50% - 5px);
+    margin-right: -3px;
+}
+
+.second-news__item.much-news .small-news {
+    height: 195px;
+}
+
+.second-news__item .small-news:nth-child(2n) {
+    margin-left: 10px;
+}
+
+.second-news__item .right-side .news-item {
+    height: 210px;
+}
+
+.second-news__item .item-content {
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 21px 16px 19px;
+}
+
+.second-news__item.much-news .item-content {
+    padding: 0 16px 27px 19px;
+}
+
+.second-news__item .big-news .item-content {
+    padding: 0 19px 34px;
+}
+
+.second-news__item .right-side .item-content {
+    padding: 0 14px 19px;
+}
+
+.second-news__item .item__name_wrap {
+    display: inline-block;
+    width: calc(100% - 80px);
+}
+
+.second-news__item .item__name {
+    vertical-align: middle;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "MyriadProBold";
+    text-shadow: 0px 1px 2.73px rgba(0, 0, 0, 0.5);
+}
+
+.second-news__item .item__name span {
+    position: relative;
+    z-index: 5;
+}
+
+.second-news__item .small-news .item__name {
+    position: relative;
+    padding-right: 40px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.second-news__item.much-news .small-news .item__name {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.second-news__item .big-news .item__name {
+    position: relative;
+    display: inline-block;
+    padding-right: 43px;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.second-news__item .item__comments {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    z-index: 5;
+    padding: 0 2px;
+    min-width: 24px;
+    height: 22px;
+    line-height: 18px;
+    background: url(../img/comments.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: "MyriadProBold";
+    color: #34495e;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+.second-news__item .big-news .item__comments {
+    top: 50%;
+    margin-top: 3px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.second-news__item .small-news .item__comments {
+   top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.second-news__item .item__date {
+    position: relative;
+    z-index: 5;
+    float: right;
+    color: #fff;
+    font-family: "MyriadProLight";
+    font-size: 14px;
+    text-shadow: 0px 1px 2.73px rgba(0, 0, 0, 0.5);
+}
+
+.second-news__item .big-news .item__date {
+    margin-top: 12px;
+}
+
+.second-news__item .small-news .item__date {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+
+.second-news__item.much-news .small-news .item__date {
+    top: 6px;
+    left: 19px;
+}
+
+.second-news__item .right-side .item__date {
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+
+.second-news__item .right-side .item__comments {
+    position: absolute;
+    top: 10px;
+    right: 11px;
+}
+
+a.show-all-news {
+    display: table;
+    margin: 25px auto 0;
+    -webkit-transform: translateX(-71%);
+    -moz-transform: translateX(-71%);
+    -ms-transform: translateX(-71%);
+    -o-transform: translateX(-71%);
+    transform: translateX(-71%);
+    font-size: 16px;
+    color: #34495e;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.main__wrapper footer {
+    padding-top: 68px;
+}
+

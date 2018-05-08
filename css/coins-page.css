@@ -1,0 +1,105 @@
+.coins__wrapper .header__bottom_menu {
+    margin-bottom: 10px;
+}
+
+.coins__wrapper .breadcrumb {
+    padding-left: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.coins__wrapper .breadcrumb>li {
+    font-size: 12px;
+    font-family: "MyriadProLight";
+}
+
+.coins__wrapper .breadcrumb>li a {
+    color: rgb(128, 128, 128);
+}
+
+.coins__wrapper .breadcrumb>li.active {
+    color: #307798;
+}
+
+.coins__wrapper .breadcrumb>li+li:before {
+    padding: 0;
+}
+
+.coins-content {
+    padding-top: 39px;
+    background: url(../img/coin.png) center 107px no-repeat,
+                url(../img/coin-bg.png) center 154px no-repeat;
+}
+
+.content-head {
+    max-width: 530px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 42px;
+    line-height: 46px;
+    font-family: "MyriadProSemibold";
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+}
+
+.content-head.buy {
+    margin-top: 263px;
+}
+
+.coins-content .info-list {
+    display: table;
+    width: 100%;
+    margin-top: 146px;
+    margin-bottom: 43px;
+}
+
+.coins-content .list-item {
+    width: 50%;
+    margin-bottom: 18px;
+    font-family: "MyriadProLight";
+    font-size: 32px;
+    color: #000;
+    clear: both;
+}
+
+.coins-content .list-item:nth-child(2n) {
+    float: left;
+    padding-right: 70px;
+    text-align: right;
+}
+
+.coins-content .list-item:nth-child(2n + 1) {
+    float: right;
+    padding-left: 65px;
+}
+
+.coins-content a.login__btn {
+    display: block;
+    width: 260px;
+    padding: 13px 0 10px;
+    margin: 143px auto 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #4285f4;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.coins-content a.registration__btn {
+    display: table;
+    margin: 20px auto 0;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #000;
+}
+
+.coins__wrapper footer {
+    padding-top: 93px;
+}
+

@@ -1,0 +1,1069 @@
+.profile-company__wrapper .workarea-wrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.profile-company__wrapper footer {
+	padding-top: 0;
+}
+
+.side-block,
+.main-block {
+	display: inline-block;
+	margin-right: -3px;
+}
+
+.side-block {
+	position: relative;
+	width: 195px;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.side-block_item {
+	margin: 0;
+}
+
+.main-block {
+	width: calc(100% - 220px);
+	border-left: 1px solid #bbbbbb;
+}
+
+.main-block__title {
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+.side-block__title,
+.main-block__item-title,
+.side-block__link,
+.side-block .add,
+.main-block__item-content p,
+.main-block__item-content table {
+	font-size: 16px;
+	color: #000000;
+}
+
+.side-block__title,
+.main-block__item-title,
+.main-block__title {
+	font-family: "MyriadProBold";
+}
+
+.side-block__link,
+.main-block__item-content p,
+.main-block__item-content table {
+	font-family: "MyriadProLight";
+}
+
+.main-block__title,
+.side-block__title {
+	margin-top: 0;
+}
+
+/*SIDE-BLOCK*/
+
+/* .side-block:after {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: 35px;
+	border-bottom: 1px solid #bbbbbb;
+} */
+
+.side-block__title,
+.side-block__list,
+.side-block .add {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.side-block .add {
+	display: block;
+	padding-top: 20px;
+	border-top: 1px solid #bbbbbb;
+}
+
+.side-block__title {
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+
+.side-block__dropdown-arrow {
+	position: absolute;
+	display: block;
+	content: '';
+	background: url(../img/arrow-down.png) center center no-repeat;
+	width: 14px;
+	height: 7px;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+}
+
+.side-block__list {
+	display: none;
+	margin-bottom: 35px;
+}
+
+.side-block__item img {
+	width: 20px;
+	height: 20px;
+	margin-right: 12px;
+	vertical-align: top;
+}
+
+.side-block__link {
+	display: inline-block;
+	line-height: 20px;
+}
+
+.side-block__item {
+	margin-bottom: 18px;
+}
+
+/*END SIDE-BLOCK*/
+
+.main-block__list {
+	padding-left: 20px;
+}
+
+.main-block__item {
+	position: relative;
+	padding: 20px 30px;
+	margin-right: -10px;
+}
+
+.main-block__item-content {
+	position: relative;
+	width: 58%;
+}
+
+.main-block__item:not(:last-child) {
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.main-block__item-title,
+.main-block__item-content {
+	display: block;
+	float: left;
+}
+
+.main-block__item-title {
+	width: 42%;
+	margin-bottom: 5px;
+}
+
+.main-block__item-content table {
+	width: 250px;
+}
+
+.main-block__item-content p {
+	line-height: 20px;
+	margin-bottom: 0;
+}
+
+.main-block__item-content table td,
+.main-block__item-title {
+	line-height: 20px;
+}
+
+.main-block__item-edit {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+	line-height: 1;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	padding: 4px;
+}
+
+.main-block__item_row .main-block__item-title,
+.main-block__item_row .main-block__item-content {
+	width: 100%;
+}
+
+.main-block__item_row .main-block__item-content p,
+.main-block__item-content_gallery .lightgallery-wrap {
+	width: 94%;
+}
+
+.main-block__item-content_gallery .main-block__gallery-image {
+	width: 166px;
+	height: 166px;
+}
+
+/*POPUPS*/
+
+.popups {
+	display: none;
+}
+
+.btn-add-company,
+.btn-cancel,
+.btn-add-company,
+.btn-cancel {
+	font-size: 18px;
+	color: #fff;
+	width: 260px;
+	border: 1px solid rgb(66, 133, 244);
+	background-color: rgb(66, 133, 244);
+	border-radius: 5px;
+	margin: 0;
+}
+
+.btn-add-company {
+	margin-right: 12px;
+}
+
+.btn-cancel {
+	color: #4285f4;
+	background: transparent;
+}
+
+.popup__edit-company_name {
+	display: none;
+	max-width: 1022px;
+}
+
+.popup__edit-company_name .popup__content {
+	width: 100%;
+	min-width: 320px;
+	padding: 65px 155px 70px;
+}
+
+.popup__edit-company_name .form-control {
+	display: inline-block;
+	font-size: 16px;
+	font-family: "MyriadProRegular";
+	font-weight: normal;
+	color: #a0a0a0;
+	width: 535px;
+	height: 40px;
+}
+
+.popup__edit-company_name .form-control_600px {
+	display: none;
+}
+
+.popup__edit-company_name .form-group_email .form-control {
+	width: 260px;
+}
+
+.popup__edit-company_name .form-horizontal {
+	width: 715px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+}
+
+.popup__edit-company_name .form-horizontal .form-group {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.popup__edit-company_name .form-control_phone {
+	margin-right: 12px;
+}
+
+.popup__edit-company_name label {
+	font-size: 18px;
+	font-family: "MyriadProRegular";
+	font-weight: normal;
+	margin-right: 13px;
+}
+
+.position-phone {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.position-phone_remove {
+	position: absolute;
+	content: '';
+	top: 50%;
+	right: -20px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 17px;
+	height: 17px;
+	background: url('../img/close.png') center center no-repeat;
+	opacity: 0.2;
+	cursor: pointer;
+}
+
+.position-phone_remove:hover {
+	opacity: 1;
+}
+
+/*WORKTIME*/
+
+.popup__edit-company_worktime {
+	display: none;
+}
+
+.popup__edit-company_worktime h2 {
+	margin-bottom: 20px;
+}
+
+.popup__edit-company_worktime .desc {
+	font-size: 18px;
+	color: #000000;
+}
+
+.popup__edit-company_worktime .form-groups {
+	width: 600px;
+	margin: auto;
+}
+
+.popup__edit-company_worktime .checkbox-group label {
+	font-size: 18px;
+	font-family: "MyriadProLight";
+	margin: 0;
+}
+
+.checkbox-group td {
+	width: 33px;
+	height: 20px;
+	text-align: center;
+}
+
+.checkbox-group input[type=checkbox] {
+	width: 18px;
+	height: 18px;
+}
+
+.popup__edit-company_worktime .form-group_hours>label {
+	width: 117px;
+	text-align: right;
+	vertical-align: top;
+	line-height: 40px;
+	margin-right: 18px;
+}
+
+.popup__edit-company_worktime .label-title {
+	width: 130px;
+	text-align: right;
+}
+
+.popup__edit-company_worktime .checkbox-group .label-text {
+	font-size: 18px;
+	font-family: "MyriadProRegular";
+	font-weight: normal;
+	margin-right: 13px;
+}
+
+.popup__edit-company_worktime .form-control_hours {
+	position: relative;
+	width: 90px;
+}
+
+.popup__edit-company_worktime .form-horizontal .form-group,
+.hours-block {
+	position: relative;
+}
+
+.popup__edit-company_worktime .form-horizontal .form-group_days,
+.popup__edit-company_worktime .form-horizontal .form-group_hours {
+	display: inline-block;
+	/* margin-right: 15px;
+	padding-left: 30px; */
+}
+
+.popup__edit-company_worktime .form-horizontal .form-group_days {
+	margin-right: 15px;
+}
+
+.form-control_hours_from {
+	position: relative;
+	margin-right: 40px;
+}
+
+.popup__edit-company_worktime .hours-block:after {
+	position: absolute;
+	display: block;
+	content: "";
+	height: 1px;
+	width: 15px;
+	top: 20px;
+	right: 50%;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+	background: #acacac;
+}
+
+.popup__edit-company_worktime .form-group_btn {
+	text-align: center;
+}
+
+.popup__edit-company_worktime .form-group_btn button {
+	display: inline-block;
+}
+
+.popup__edit-company_worktime .btn-add-company {
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.hours-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hours-edit {
+	display: inline-block;
+	max-width: 345px;
+}
+
+.form-group__btn-param,
+.form-group__btn-param:hover,
+.form-group__btn-param:focus {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	font-family: "MyriadProLight";
+	color: #000000;
+	text-decoration: underline;
+}
+
+.form-group__btn-param:not(:first-child) {
+	margin-top: 3px;
+}
+
+.form-group_hours .hours-block {
+	margin-right: 20px;
+}
+
+.btn-params_24h {
+	position: relative;
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: top;
+}
+
+.btn-params_add-days {
+	max-width: 600px;
+	margin: 0 auto 30px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+.btn-params_break {
+	margin-top: 10px;
+}
+
+.form-group_hours {
+	text-align: left;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.popup__edit-company_worktime .popup__content,
+.popup__edit-company_name .popup__content {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.hours-block_add {
+	display: block;
+	max-width: 223px;
+	margin-top: 20px;
+}
+
+.params24h_remove {
+	position: absolute;
+	content: '';
+	top: 50%;
+	right: -20px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 17px;
+	height: 17px;
+	background: url('../img/close.png') center center no-repeat;
+	opacity: 0.2;
+	cursor: pointer;
+}
+
+.params24h_remove:hover {
+	opacity: 1;
+}
+
+/*CATEGORY*/
+
+.popup__edit-company_category {
+	display: none;
+	max-width: 1022px;
+}
+
+.popup__edit-company_category .popup__content {
+	width: 540px;
+	min-width: 320px;
+}
+
+.popup__edit-company_category .form-group {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.popup__edit-company_category .form-control_search {
+	width: 100%;
+	font-size: 16px;
+	font-family: "MyriadProLight";
+	color: #808080;
+}
+
+.categories-list__link,
+.categories-list__link:hover,
+.categories-list__link:focus {
+	display: inline-block;
+	font-size: 18px;
+	font-family: "MyriadProRegular";
+	color: #000000;
+	text-decoration: none;
+}
+
+.categories-list>li>.categories-list__link {
+	position: relative;
+	line-height: 28px;
+	text-transform: uppercase;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+.categories-list>li>.categories-list__link:before,
+.categories-list>li>.categories-list__link_open:before {
+	position: absolute;
+	display: block;
+	content: '+';
+	top: 5px;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 14px;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+}
+
+.categories-list>li>.categories-list__link_open:before {
+	content: '-';
+	color: #4285f4;
+	background-color: transparent;
+}
+
+.category-tag {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "MyriadProRegular";
+	color: #ffffff;
+	line-height: 26px;
+	background-color: #4285f4;
+	border-radius: 3px;
+	padding: 0 30px 0 15px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+
+.category-tag .tag-close {
+	position: absolute;
+	top: -5px;
+	right: 5px;
+}
+
+.form-group_tags,
+.form-group_categories {
+	text-align: left;
+}
+
+.categories-list-dropdown {
+	display: none;
+	margin-left: 30px;
+}
+
+.categories-list-dropdown .categories-list__link {
+	vertical-align: top;
+	line-height: 1;
+}
+
+.categories-list-dropdown input[type=checkbox] {
+	width: 18px;
+	height: 18px;
+	margin: 0 15px 0 0;
+}
+
+.categories-list-dropdown .categories-list__item {
+	margin-bottom: 5px;
+}
+
+/*POP_UP_EDIT_SERVICES_COMPANY*/
+
+.popup__edit-company_services {
+	display: none;
+	width: 1020px;
+}
+
+.popup__edit-company_services h3 {
+	font-size: 20px;
+	font-family: "MyriadProBold";
+	color: #000000;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.popup__content_sto,
+.popup__content_salon,
+.popup__content_sto-equipment,
+.popup__content_tire,
+.popup__content_autodilers,
+.popup__content_drivers,
+.popup__content_autoschools,
+.popup__content_battery-station,
+.popup__content_fuel-station,
+.popup__content_autowash,
+.popup__content_techhelp,
+.popup__content_evacuation {
+	display: none;
+}
+
+.form-horizontal {
+	position: relative;
+}
+
+.popup__edit-company_services .popup__content_sto .form-horizontal {
+	position: relative;
+	padding-top: 60px;
+}
+
+.popup__edit-company_services .form-horizontal .form-group {
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.popup__edit-company_services .categories-list-dropdown {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: -3px;
+}
+
+.popup__edit-company_services .popup__content {
+	width: 780px;
+	min-width: 320px;
+}
+
+.popup__edit-company_services .categories-list-dropdown {
+	width: 50%;
+	vertical-align: top;
+}
+
+.popup__edit-company_services input[type="reset"] {
+	display: none;
+}
+
+.popup__edit-company_services .filter-reset,
+.popup__edit-company_services .filter-reset:hover,
+.popup__edit-company_services .filter-reset:focus {
+	display: block;
+	width: 130px;
+	font-size: 14px;
+	font-family: "MyriadProLight";
+	color: #000000;
+	text-decoration: underline;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.select-mark {
+	position: relative;
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: "MyriadProRegular";
+	color: #000000;
+	background: url('../img/arrow-down-black.png') 240px 19px no-repeat;
+	-webkit-background-size: 7px 4px;
+	background-size: 7px 4px;
+	cursor: pointer;
+}
+
+.select-mark input[type=checkbox] {
+	display: none;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	top: 11px;
+	left: 10px;
+}
+
+.categories-list-dropdown_marks input[type=checkbox] {
+	margin-right: 10px;
+}
+
+.form-group_marks {
+	position: absolute;
+	top: 0;
+	width: 260px;
+	max-height: 420px;
+	background-color: #fff;
+	border: 1px solid #acacac;
+	border-radius: 5px;
+}
+
+.popup__edit-company_services .categories-list-dropdown_marks {
+	position: relative;
+	display: none;
+	width: 100%;
+	max-height: 350px;
+	left: 0px;
+	top: 0px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 28px;
+	overflow: hidden;
+}
+
+.categories-list__item_btn {
+	position: absolute;
+	display: none;
+	left: 0;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	background: url('../img/arrow-down-black.png') center center no-repeat;
+	background-color: #e0e0e0;
+	margin: 0;
+	border-top: 1px solid #acacac;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+.mark-name {
+	display: inline-block;
+	height: 40px;
+}
+
+.popup__edit-company_services .popup__content form {
+	margin-top: 0;
+}
+
+.popup__edit-company_services .popup__content_salon {
+	width: 640px;
+}
+
+.popup__content_autodilers h3 {
+	text-align: center;
+}
+
+.popup__content_autodilers .form-horizontal {
+	padding-top: 10px;
+}
+
+.popup__content_autodilers .form-group_marks {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.popup__content_autodilers .filter-reset {
+	float: right;
+}
+
+.popup__content_autodilers .btn-add-company,
+.popup__content_autodilers .btn-cancel {
+	display: block;
+	margin: auto;
+}
+
+.popup__content_autodilers .btn-add-company {
+	margin-bottom: 10px;
+}
+
+.popup__content_autodilers .form-group_marks {
+	width: 260px;
+}
+
+.popup__edit-company_services .popup__content_autodilers {
+	width: 560px;
+}
+
+.categories-list__link {
+	max-width: 85%;
+}
+
+.popup__edit-company_services .popup__content_autoschools,
+.popup__edit-company_services .popup__content_fuel-station,
+.popup__edit-company_services .popup__content_autowash,
+.popup__edit-company_services .popup__content_evacuation {
+	width: 540px;
+}
+
+.popup__edit-company_services .popup__content_battery-station .form-group_categories,
+.popup__content_battery-station .filter-reset,
+.popup__content_battery-station h3 {
+	width: 380px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.popup__edit-company_services .popup__content_techhelp {
+	width: 610px;
+}
+
+/*SERVICES_ADRESS*/
+
+.popup__edit-company_adress {
+	display: none;
+}
+
+.popup__edit-company_adress .company-catalog__sort {
+	display: inline-block;
+	width: 260px;
+	vertical-align: top;
+}
+
+.popup__edit-company_adress .form-control_type {
+	width: 260px;
+}
+
+.popup__edit-company_adress .company-catalog__sort {
+	width: 260px;
+	height: 40px;
+	font-size: 16px;
+	font-family: "MyriadProRegular";
+	color: #a0a0a0;
+	border: 1px solid #acacac;
+	border-radius: 5px;
+	margin-right: 12px;
+}
+
+.popup__edit-company_adress .form-control {
+	border: 1px solid #acacac;
+}
+
+.popup__edit-company_adress .company-catalog__sort-by {
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	color: #a0a0a0;
+	line-height: 40px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.popup__edit-company_adress .company-catalog__sort-by:hover,
+.popup__edit-company_adress .company-catalog__sort-by:focus {
+	text-decoration: none;
+}
+
+.popup__edit-company_adress .company-catalog__sort-by:after {
+	right: 10px;
+	background: url(../img/arrow-down-black.png) center center no-repeat;
+}
+
+.popup__edit-company_adress .company-catalog__sort-list {
+	width: 260px;
+	top: 38px;
+	right: -1px;
+	border: 1px solid #bbbbbb;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.company-catalog__sort.company-catalog__sort_bottom-radius {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.adress_place-type {
+	display: none;
+}
+
+/*SERVICES CONTACTS*/
+
+.popup__edit-company_contacts {
+	display: none;
+}
+
+.form-control_numphone {
+	margin-right: 12px;
+}
+
+.popup__edit-company_contacts .add-num-phone {
+	position: relative;
+	left: 194px;
+	text-align: left;
+}
+
+.popup__edit-company_contacts .add-num-phone__btn {
+	display: inline-block;
+	font-size: 14px;
+	font-family: "MyriadProLight";
+	color: #000000;
+	text-decoration: underline;
+}
+
+/*SERVICES DESC*/
+
+.popup__edit-company_description {
+	display: none;
+}
+
+.popup__edit-company_description .form-group_btn {
+	text-align: center;
+}
+
+.popup__edit-company_description h3,
+.popup__edit-company_add-logo h3 {
+	font-size: 18px;
+	font-family: "MyriadProRegular";
+	color: #000000;
+}
+
+/*ADD_LOGO*/
+
+.popup__edit-company_add-logo {
+	display: none;
+}
+
+.popup__edit-company_add-logo .form-group_file .button,
+.popup__edit-company_add-logo .form-group_file .file-name {
+	position: relative;
+}
+
+.popup__edit-company_add-logo .form-group_file input[type=file] {
+	display: none;
+}
+
+.popup__edit-company_add-logo .form-horizontal {
+	text-align: center;
+}
+
+.popup__edit-company_add-logo .form-group_btn button {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.button-add-logo {
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-family: "MyriadProRegular";
+	color: #a0a0a0;
+	border: 1px solid #acacac;
+	border-radius: 5px;
+	margin: 0 auto 20px;
+	cursor: pointer;
+}
+
+.uploaded-images__item_logo {
+	position: relative;
+	width: 260px;
+	margin: 0 auto 20px;
+}
+
+.uploaded-images__item_logo>img {
+	width: 150px;
+	height: 150px;
+}
+
+.uploaded-images__item_logo .remove-item {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: #fff;
+}
+
+/*ADDPHOTO*/
+
+.popup__edit-company_add-img {
+	display: none;
+}
+
+.popup__edit-company_add-img .form-horizontal {
+	width: 100%;
+	padding-left: 85px;
+	padding-right: 85px;
+}
+
+.uploaded-images {
+	text-align: left;
+}
+
+.uploaded-images>a,
+.uploaded-images>a:hover,
+.uploaded-images>a:focus {
+	display: inline-block;
+	font-size: 14px;
+	font-family: "MyriadProLight";
+	color: #000000;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+.uploaded-images__item {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.uploaded-images__item input[type=checkbox] {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	top: 5px;
+	left: 20px;
+}
+
+.uploaded-images__item>img {
+	width: 150px;
+	height: 150px;
+}
+
+.remove-item {
+	display: inline-block;
+	float: right;
+	width: 29px;
+	height: 29px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #acacac;
+	border-radius: 2px;
+}
+
+.popup__edit-company_add-img .form-group_btn button {
+	display: inline-block;
+}
+
+.popup__edit-company_add-img .form-group_btn .btn-add-company {
+	margin-right: 12px;
+}
+
+/*END POPUPS*/

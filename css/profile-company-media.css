@@ -1,0 +1,385 @@
+@media only screen and (max-width: 1200px) {
+	.main-block__item-content p {
+		width: 94%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.profile-company__wrapper .workarea-wrap {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.side-block {
+		width: 180px;
+		margin-left: 0;
+		margin-right: -3px;
+	}
+	.side-block__title,
+	.side-block__list,
+	.side-block .add {
+		padding-left: 0;
+	}
+	.main-block {
+		width: calc(100% - 180px);
+	}
+	.main-block__title {
+		padding-left: 10px;
+	}
+	.main-block__list {
+		padding-left: 0;
+	}
+	.main-block__item {
+		margin-right: 0;
+		padding-left: 10px;
+		padding-right: 0;
+	}
+	.main-block__item:last-child {
+		padding-bottom: 0;
+	}
+	.main-block__item-content p {
+		width: 90%;
+	}
+	.main-block__item-content table {
+		width: 230px;
+	}
+	.main-block__item_row .main-block__item-content p,
+	.main-block__item-content_gallery .lightgallery-wrap {
+		width: 100%;
+	}
+	.main-block__item-content_gallery .main-block__gallery-image {
+		width: 128px;
+		height: 128px;
+	}
+	.main-block__item-edit {
+		top: 0;
+		-webkit-transform: initial;
+		-ms-transform: initial;
+		transform: initial;
+	}
+	.main-block__item_row .main-block__item-edit {
+		-webkit-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		transform: translateY(-100%);
+	}
+	.main-block__item-content_gallery .lightgallery-wrap {
+		margin-top: 10px;
+	}
+	.popup__edit-company_services .popup__content,
+	.popup__edit-company_services {
+		width: 100%;
+	}
+	.popup__edit-company_services .popup__content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.popup__edit-company_add-img .form-horizontal {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.popup__edit-company_name .form-horizontal,
+	.popup__edit-company_name .form-groups,
+	.popup__edit-company_category .popup__content {
+		width: 100%;
+	}
+	.popup__edit-company_name .form-horizontal .form-group {
+		text-align: center;
+	}
+	.popup__edit-company_worktime .form-group_hours>label,
+	.hours-edit {
+		display: block;
+		text-align: center;
+	}
+	.popup__edit-company_worktime .form-group_hours>label {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.hours-edit {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form-group_hours .hours-block {
+		float: none;
+		margin-right: 0px;
+	}
+	.form-group_hours .btn-params {
+		text-align: left;
+	}
+	.popup__edit-company_worktime .form-horizontal .form-group_days,
+	.popup__edit-company_worktime .form-horizontal .form-group_hours {
+		margin-right: 0px;
+		padding-left: 0px;
+	}
+	.popup__content,
+	.popup__edit-company_name .popup__content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.form-group__btn-param:first-child {
+		margin-top: 10px
+	}
+	/* .popup__edit-company_worktime .label-title,
+	.popup__edit-company_worktime .checkbox-group tr td:first-child {		
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	} */
+	.popup__edit-company_worktime .checkbox-group .label-text {
+		margin-right: 0;
+	}
+	.popup__edit-company_worktime .checkbox-group {
+		margin: auto;
+	}
+	.popup__edit-company_name label {
+		display: block;
+		margin-right: 0;
+	}
+	.categories-list__link,
+	.categories-list__link:hover,
+	.categories-list__link:focus {
+		font-size: 16px;
+	}
+	.popup__edit-company_adress .company-catalog__sort {
+		padding: 0;
+		margin-left: 0;
+	}
+	.popup__edit-company_adress label {
+		width: 535px;
+		text-align: left;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.popup__edit-company_add-img .form-horizontal {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.popup__edit-company_contacts .add-num-phone {
+		left: 0;
+		width: 535px;
+		margin: auto;
+	}
+	.popup__edit-company_name .form-horizontal .form-groups {
+		text-align: center;
+	}
+	.form-group_days {
+		width: 100%;
+	}
+	.btn-params {
+		max-width: 231px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hours-block,
+	.btn-params_24h {
+		width: 100%;
+	}
+	.btn-params_24h .form-group__btn-param {
+		margin: 0;
+	}
+	.btn-params_add-days {
+		text-align: center;
+		padding-left: 0;
+	}
+	.form-group_hours .hours-block_add {
+		margin: 20px auto;
+	}
+	.params24h_remove {
+		position: absolute;
+		content: '';
+		top: 50%;
+		right: 0px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.profile-company__wrapper .workarea-wrap {
+		padding-top: 35px;
+		padding-bottom: 15px;
+	}
+	.profile-company__wrapper .header__middle .container,
+	.profile-company__wrapper .page-content .container {
+		padding: 0 15px;
+	}
+	.profile-company__wrapper .workarea-wrap {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.side-block,
+	.main-block {
+		width: 100%;
+	}
+	.main-block {
+		border-left: none;
+	}
+	/* .side-block {
+		margin-bottom: 35px;
+	} */
+	.side-block__title,
+	.side-block__list,
+	.side-block .add {
+		padding: 0 20px;
+	}
+	.side-block .add {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+	.main-block__title {
+		font-size: 20px;
+		font-family: "MyriadProSemiBold";
+		padding-left: 0;
+	}
+	.side-block__title:after {
+		right: 20px;
+	}
+	.main-block__item-title,
+	.main-block__item-content {
+		float: none;
+		width: 100%;
+	}
+	.main-block__item {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.main-block__item-title,
+	.main-block__item-content p,
+	.main-block__item-content table {
+		font-size: 14px;
+	}
+	.main-block__item-edit {
+		-webkit-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		transform: translateY(-100%);
+	}
+	.main-block__item_logo .main-block__item-content {
+		text-align: center;
+	}
+	.main-block__item_row .main-block__item-content p,
+	.main-block__item-content_gallery .lightgallery-wrap {
+		width: 93%;
+	}
+	.main-block__item-content_gallery .main-block__gallery-image {
+		width: 65px;
+		height: 65px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.popup__edit-company_name .form-control_name,
+	.popup__edit-company_name .form-control_id {
+		display: none;
+	}
+	.popup__edit-company_name .form-control_600px,
+	.popup__edit-company_name .form-control_type {
+		display: block;
+		width: 100%;
+	}
+	.popup__edit-company_name .btn-add-company,
+	.popup__edit-company_category .btn-add-company,
+	.popup__edit-company_services .btn-add-company {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.popup__edit-company_category .btn-add-company,
+	.popup__edit-company_category .btn-cancel {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.popup__edit-company_category .form-group_tags {
+		margin-left: -10px;
+	}
+	.category-tag {
+		margin-right: 2px;
+	}
+	.form-group_marks,
+	.select-mark,
+	.mark-name,
+	.popup__edit-company_services .categories-list-dropdown {
+		width: 100%;
+	}
+	.mark-name {
+		padding-left: 35px;
+		text-align: left;
+	}
+	.popup__edit-company_services .categories-list-dropdown {
+		margin-bottom: 0;
+	}
+	.popup__edit-company_services h3 {
+		font-size: 18px;
+	}
+	.mark-name {
+		font-size: 16px;
+	}
+	.categories-list-dropdown_marks input[type=checkbox] {
+		margin-right: 5px;
+	}
+	.select-mark {
+		background-position: right 30px top 19px;
+	}
+	.popup__content_autodilers .btn-add-company {
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.popup__content_autodilers .filter-reset {
+		float: none;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.popup__content_autodilers .form-horizontal {
+		padding-top: 60px;
+	}
+	.popup__edit-company_services .popup__content_battery-station .form-group_categories,
+	.popup__content_battery-station .filter-reset,
+	.popup__content_battery-station h3 {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.popup__edit-company_adress .form-control,
+	.popup__edit-company_adress .btn-add-company,
+	.popup__edit-company_adress .btn-cancel,
+	.popup__edit-company_adress .company-catalog__sort {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}
+	.popup__edit-company_adress .company-catalog__sort-list {
+		width: calc(100% + 2px);
+	}
+	.popup__edit-company_adress .company-catalog__sort {
+		margin-bottom: 10px;
+	}
+	.popup__edit-company_adress label {
+		width: 100%;
+	}
+	.form-control_numphone {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.popup__edit-company_add-img .form-group_btn .btn-add-company {
+		margin-right: 0;
+	}
+	.popup__edit-company_contacts .add-num-phone {
+		width: 100%;
+	}
+	.position-phone {
+		width: 100%;
+	}
+	.form-group_file .button {
+		border-radius: 4px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.uploaded-images__item {
+		width: 100%;
+	}
+	.uploaded-images__item>img {
+		width: 241px;
+		height: 216px;
+	}
+}

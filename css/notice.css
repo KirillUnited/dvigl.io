@@ -1,0 +1,122 @@
+.notice-wrap {
+	padding: 86px 148px 85px;
+}
+.notice-block__title {
+  font-size: 20px;
+  color: #000;
+  margin: 0 80px 20px;
+}
+.notice-block__item {
+  margin-bottom: 5px;
+  padding: 15px 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+.notice-block__item:last-child {
+  margin-bottom: 25px;
+}
+.notice-block__title span {
+  display: none;
+}
+.notice-block__title_active {
+  font-family: "MyriadProBold";
+}
+.notice-block__title_active span {
+  display: inline-block;
+}
+.notice-block__user-image,
+.notice-block__event {
+  display: inline-block;
+}
+.notice-block__user-image {
+  width: 220px;
+}
+.notice-block__event {
+  font-size: 16px;
+  font-family: "MyriadProLight";
+  color: #000000;
+  line-height: 17px;
+  vertical-align: top;
+  margin-top: 15px;
+}
+.notice-block__event a {
+  font-family: "MyriadProLight";
+  color: #000000;
+  text-decoration: underline;
+}
+.notice-block__user-image img {
+  float: left;
+  border-radius: 50%;
+  width: 65px;
+  margin-right: 15px;
+}
+.notice-block__user-image .user-name {
+  font-size: 16px;
+  font-family: "MyriadProBold";
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+.notice-block__user-image .event-time {
+  font-size: 16px;
+  font-family: "MyriadProLight";
+  color: #bbbbbb;
+}
+.notice-block__showAll {
+  font-size: 16px;
+  font-family: "MyriadProLight";
+  color: #4285f4;
+  margin-left: 80px;
+}
+.notice-block__item_new {
+  background-color: #eaeaea;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 1200px) {
+  .notice-wrap {
+    padding: 86px 150px 85px;
+  }
+  .notice-block__user-image {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .notice-wrap {
+    padding: 86px 20px 55px;
+  }
+}
+@media screen and (max-width: 703px) {
+  .notice-wrap {
+    padding: 70px 0 35px;
+  }
+  .notice-block__title {
+    font-size: 14px;
+    margin-right: 0;
+    margin-left: 47px;
+  }
+  .notice-block__user-image .user-name,
+  .notice-block__user-image .event-time,
+  .notice-block__event,
+  .notice-block__showAll {
+    font-size: 11px;
+  }
+  .notice-block__user-image {
+    width: 100px;
+  }
+  .notice-block__user-image img {
+    width: 36px;
+    margin-right: 10px;
+  }
+  .notice-block__user-image .user-name {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .notice-block__event {
+    width: calc( 100% - 104px );
+    margin-top: 3px;
+  }
+  .notice-block__showAll {
+    margin-left: 47px;
+  }
+}
+/*END MEDIA*/

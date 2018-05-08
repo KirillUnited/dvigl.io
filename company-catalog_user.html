@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<title>Каталог компаний|Пользователь</title>
+
+	<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+
+	<script src="https://api-maps.yandex.ru/2.1/?load=package.standard&amp;lang=ru-RU"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+	<div class="wrapper company-catalog__wrapper">
+		<!-- BEGIN HEADER -->
+		<header>
+      <div class="header__top">
+        <div class="container">
+          <img src="img/BANNER1.png" alt="BANNER1" title="BANNER1">
+        </div>
+      </div>
+      <div class="header__middle">
+        <!-- navbar -->
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <a href="#">
+                <img class="block-mobile" src="img/logo_new.png" alt="Drive24" title="Главная">
+              </a>
+              <div class="header__middle_search col-md-6">
+                <form>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Что хотите найти?">
+                    <span class="input-group-addon location">
+                      <img src="img/map-marker.png" alt="map-marker">
+                      <a href="#">Минск</a>
+                    </span>
+                    <div class="input-group-btn">
+                      <button class="btn btn-default" type="submit">
+                        <img src="img/search.png" alt="search">
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <button class="btn btn-default btn-mobile-search" type="submit">
+                <img src="img/search.png" alt="search">
+              </button>              
+              <button type="button" class="navbar-toggle" data-toggle="" data-target="">
+                <i class="ion-navicon-round"></i>
+              </button>
+            </div>
+            <div class="header__menu" id="myNavbar">
+              <div class="close">
+                <img src="img/close-white.png" alt="close">
+              </div>
+              <div class="row">
+                <ul class="header__middle_menu">
+                  <li>
+                    <a href="#">новости</a>
+                    <ul class="header__menu-block">
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Новинки</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Электрокары</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Происшествия</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Ретро</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Тест-драйвы</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Off-топ</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="active" href="#">каталог</a>
+                    <ul class="header__menu-block">
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">СТО и ремонт</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Автопомощь</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Автозаправки и мойки</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">ГАИ, гостехосмотр, стоянки</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Обучение</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Покупка и продажа</a>
+                      </li>
+                      <li class="header__menu-block-item">
+                        <a href="#" class="header__menu-block-link">Финансы и страхование</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="header__middle_social">
+                  <li>
+                    <a href="#">
+                      <img src="img/telegram.png" alt="telegram">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/instagram.png" alt="instagram">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/OK.png" alt="OK">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/facebook.png" alt="facebook">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/VK.png" alt="VK">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/youtube.png" alt="youtube">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/RSS.png" alt="RSS">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <div class="header__menu-reg">
+                  <div class="user__balance" style="position: relative; right: 0px;">
+                    <div class="user__balance_count">
+                      <img src="img/money.png" alt="balance"> 0.004
+                    </div>
+                    <a href="#">Подробнее</a>
+                  </div>
+                  <div class="user__block">
+                    <div class="user__block_avatar">
+                      <div class="img-circle">
+                        <img class="" src="img/user_image.png" alt="user image" title="user">
+                      </div>
+                      <div class="user__name" title="dfbdfbdbfbf">Вася</div>
+                      <div class="user__id" title="dfbdfbdbfbf">Номер уч.записи </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <ul class="user__block_menu">
+                      <li>
+                        <a href="#">Профиль</a>
+                      </li>
+                      <li>
+                        <a href="#">Закладки</a>
+                      </li>
+                      <li class="message">
+                        <a href="#">Сообщения</a>
+                        <span>3</span>
+                      </li>
+                      <li class="notice">
+                        <a href="#">Уведомления</a>
+                        <span>3</span>
+                      </li>
+                      <li>
+                        <a href="#">Настройки</a>
+                      </li>
+                      <li>
+                        <a href="#">Помощь</a>
+                      </li>
+                      <li>
+                        <a href="#">Выйти</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header__menu-city-search">
+                  <a class="" href="#">Минск</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom_menu">
+            <a href="#">СТО и ремонт</a>
+            <a href="#">Автопомощь</a>
+            <a href="#">Автозаправки и мойки</a>
+            <a href="#">ГАИ, гостехосмотр, стоянки</a>
+            <a href="#">Обучением</a>
+            <a href="#">Покупка и продажа</a>
+            <a href="#">Финансы и страхование</a>
+          </div>
+        </div>
+      </div>
+
+
+    </header>
+
+
+		<!-- END HEADER -->
+
+		<!-- BEGIN MAIN -->
+		<section class="main">
+			<div class="container">
+				<div class="row">
+					<ol class="breadcrumb">
+						<li><a href="#">каталог</a></li>
+						<li><a href="#">СТО и ремонт</a></li>
+						<li class="active"><span>СТО</span></li>
+					</ol>
+				</div>
+			</div>
+			<div class="page-content workarea">
+				<div class="container">
+					<div class="workarea-wrap">
+						<div class="company-catalog-wrapper__top-content">
+							<h1>CТО в Минске</h1>
+							<a href="#" class="btn-show-map">Смотреть на карте</a>
+							<ul class="filter-header list-unstyled">
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link filter-header__link_active">Автостекла</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Автоэлектрика</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Газовое оборудование</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Диагностика автомобилей</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Продажа б/у автозапчастей</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Кузовной ремонт</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Автоэлектрика</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Продажа б/у автозапчастей</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Кузовной ремонт</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Автоэлектрика</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Диагностика автомобилей</a>
+								</li>
+								<li class="filter-header__item">
+									<a href="#" class="filter-header__link">Продажа б/у автозапчастей</a>
+								</li>
+							</ul>
+							<a href="#" class="btn-show-map">Подобрать по параметрам</a>
+						</div>
+						<div class="company-catalog-wrapper__main-content">
+							<div class="filter-left">
+								<div class="filter-left__map" id="map"></div>
+								<div class="btn-fullscreen" id="btn-fullscreen">Развернуть карту</div>
+								<div class="filter-left__filter">
+									<form action="">
+										<div class="filter-left__filter-block metro">
+											<h3 class="filter-left__filter-title">Станция метро</h3>
+											<div class="filter-left__filter-list">
+												<div class="filter-left__list-select-wrapper">
+													<select class="filter-left__list-select filter-left__list-item_default">
+														<option value="Город" selected hidden>Город</option>
+														<option value="">Минск</option>
+														<option value="">Гродно</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="filter-left__filter-block hours">
+											<h3 class="filter-left__filter-title">Время работы</h3>
+											<div class="filter-left__filter-list">
+												<div class="filter-left__list-select-wrapper">
+													<select class="filter-left__list-select filter-left__list-item_default">
+														<option value="Город" selected hidden>Любой день</option>
+														<option value="Понедельник">Понедельник</option>
+														<option value="Вторник">Вторник</option>
+														<option value="Среда">Среда</option>
+														<option value="Четверг">Четверг</option>
+														<option value="Пятница">Пятница</option>
+													</select>
+												</div>
+												<div class="filter-left__filter-checkbox">
+													<input type="radio" name="right-now" id="right-now">
+													<label for="right-now">Работает сейчас</label>
+												</div>
+												<div class="filter-left__filter-checkbox">
+													<input type="radio" name="round-the-clock" id="round-the-clock">
+													<label for="round-the-clock">Круглосуточно</label>
+												</div>
+											</div>
+										</div>
+										<div class="filter-left__filter-block class-auto">
+											<h3 class="filter-left__filter-title">Марка авто</h3>
+											<div class="filter-left__filter-list">
+												<div class="filter-left__list-select-wrapper">
+													<select class="filter-left__list-select filter-left__list-item_default">
+														<option value="Город" selected hidden>Город</option>
+														<option value="">Минск</option>
+														<option value="">Гродно</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="filter-left__filter-block pay">
+											<h3 class="filter-left__filter-title">Способ оплаты</h3>
+											<div class="filter-left__filter-list">
+												<div class="filter-left__filter-checkbox">
+													<input type="radio" name="cash" id="cash">
+													<label for="cash">Наличный расчет</label>
+												</div>
+												<div class="filter-left__filter-checkbox">
+													<input type="radio" name="cash" id="non-cash">
+													<label for="non-cash">Безналичный расчет</label>
+												</div>
+												<div class="filter-left__filter-checkbox">
+													<input type="radio" name="cash" id="card">
+													<label for="card">Банковская карточка</label>
+												</div>
+											</div>
+										</div>
+										<div class="filter-left__filter-result">
+											<span class="filter-left__filter-result-text">Найдено 123 компании</span>
+										</div>
+										<input class="filter-left__filter-reset" type="reset" value="Сбросить">
+									</form>
+								</div>
+								<div class="filter-left__banner">
+									<img src="img/Banner-main.png" alt="Banner-main">
+								</div>
+							</div>
+							<div class="company-catalog">
+								<div class="company-catalog__sort">
+									<a href="#" class="company-catalog__sort-by">По популярности</a>
+									<ul class="company-catalog__sort-list">
+										<li class="company-catalog__sort-item company-catalog__sort-item_active">
+											<a href="#" class="company-catalog__sort-item-link">По популярности</a>
+										</li>
+										<li class="company-catalog__sort-item">
+											<a href="#" class="company-catalog__sort-item-link">По рейтингу</a>
+										</li>
+										<li class="company-catalog__sort-item">
+											<a href="#" class="company-catalog__sort-item-link">По расстоянию</a>
+										</li>
+									</ul>
+								</div>
+								<div class="company-catalog__list">
+									<div class="company-catalog__item company-catalog__item_vip">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+												<div class="company-catalog__item-contacts-block">
+													<span class="contacts-block-title">Режим работы:</span>
+													<div class="timetable">
+														<span>Пн-сб: 09:0–20:00</span>
+														<span>Вс: 9:00–18:00</span>
+													</div>
+													<div class="tel-nums">
+														<span>+375 17 2748322</span>
+														<span>+375 44 7730099</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item company-catalog__item_vip">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+												<div class="company-catalog__item-contacts-block">
+													<span class="contacts-block-title">Режим работы:</span>
+													<div class="timetable">
+														<span>Пн-сб: 09:0–20:00</span>
+														<span>Вс: 9:00–18:00</span>
+													</div>
+													<div class="tel-nums">
+														<span>+375 17 2748322</span>
+														<span>+375 44 7730099</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__item">
+										<img src="img/img-item-vip.png" alt="item" title="item">
+										<div class="company-catalog__item-info">
+											<h2 class="company-catalog__item-name">Автоцентр Малиновка</h2>
+											<div class="company-catalog__item-desc">Автосервис, сто и ремонт, кузовый ремонт
+											</div>
+											<div class="company-catalog__item-feedback">
+												<span class="rate-stars">
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+													<i class="fa fa-star" aria-hidden="true"></i>
+												</span>
+												<span class="comments">6 отзывов</span>
+											</div>
+											<div class="company-catalog__item-address">
+												г. Минск, ул. Cергея Есенина, 134 А
+											</div>
+											<div class="company-catalog__item-contacts">
+												<a href="#" class="company-catalog__item-contacts-link">См. режим работы и контакты</a>
+											</div>
+										</div>
+										<div class="company-catalog__item-contacts-block_mobile">
+											<div class="tel-nums">
+												<a href="tel:" class="tel-nums__title">Позвонить</a>
+											</div>
+											<a href="#" class="contacts-block-title">Режим работы</a>
+											<div class="timetable">
+												<div class="timetable_right">
+													<span>Пн-сб: 09:0–20:00</span>
+													<span>Вс: 9:00–18:00</span>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="company-catalog__pagination">
+										<ul class="company-catalog__pagination-list list-unstyled">
+											<li class="company-catalog__pagination-item"><a href="#" class="prev pagination-item_disabled"><img src="img/pag-arrow-left.png" alt="pag-arrow-left">предыдущая</a></li>
+											<li class="company-catalog__pagination-item"><a href="#" class="page-num">1</a></li>
+											<li class="company-catalog__pagination-item"><a href="#" class="page-num">2</a></li>
+											<li class="company-catalog__pagination-item"><a href="#" class="page-num">3</a></li>
+											<li class="company-catalog__pagination-item"><a href="#" class="page-num">4</a></li>
+											<li class="company-catalog__pagination-item"><a href="#" class="page-num">5</a></li>
+											<li class="company-catalog__pagination-item"><a href="#" class="next">следующая<img src="img/pag-arrow-right.png" alt="pag-arrow-right"></a></li>
+										</ul>
+									</div>
+									<a href="#" class="btn-show-map btn-show-map_next">Следующие 30 компаний</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END MAIN -->
+
+		<!-- BEGIN FOOTER -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer__menu col-md-9 col-sm-8 col-xs-12">
+						<ul class="footer__menu_link">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Реклама</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Манифест</a></li>
+							<li><a href="#">Правила</a></li>
+							<li><a href="#">Публичный договор</a></li>
+							<li><a href="#">Поддержка пользователей</a></li>
+						</ul>
+					</div>
+					<div class="footer__social col-md-3 col-sm-4 col-xs-12">
+						<ul class="footer__social_link">
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/vk.png" alt="vk">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/fb.png" alt="fb">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/insta.png" alt="insta">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/footer__social_link/ok.png" alt="ok">
+								</a>
+							</li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+
+		<!-- POP-UPs -->
+		<div class="popups">
+
+			<div class="popup__sign-in popup">
+				<div class="close">
+					<img src="img/close.png" alt="close">
+				</div>
+				<div class="popup__content">
+					<h2>Добро пожаловать!</h2>
+					<form action="">
+						<input type="email" class="form-control" placeholder="Введите email">
+						<input type="password" class="form-control" placeholder="Введите пароль">
+						<button class="btn btn-default" type="submit">
+							ВОЙТИ
+						</button>
+					</form>
+					<div class="remember-password">
+						<a href="#">Забыли пароль или не можете войти?</a>
+					</div>
+					<div class="registration">
+						<a href="#">РЕГИСТРАЦИЯ</a>	
+					</div>
+					<div class="sign-in__social">
+						<h3>Войти с помощью</h3>
+						<ul class="sign-in__social_links list-unstyled">
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/google.png" alt="google" title="google"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/VK.png" alt="VK" title="VK"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/facebook.png" alt="facebook" title="facebook"></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/sign-in__social_links/OK.png" alt="OK" title="OK"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="popup__sign-up popup">
+				<div class="close">
+					<img src="img/close.png" alt="close">
+				</div>
+				<div class="popup__content">
+					<h2>Добро пожаловать!</h2>
+					<form action="">
+						<input type="text" class="form-control" placeholder="Введите Ваше имя">
+						<input type="email" class="form-control" placeholder="Введите email">
+						<input type="password" class="form-control" placeholder="Введите пароль">
+						<input type="password" class="form-control" placeholder="Введите повторно пароль">
+						<button class="btn btn-default" type="submit">
+							ЗАРЕГИСТРИРОВАТЬСЯ
+						</button>
+					</form>
+					<p>Регистрируясь, вы соглашаетесь с <a href="#">правилами</a>.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- POP SEARCH -->
+		<div class="header__middle_search_mobile">
+			<div class="search-mobile-input">
+				<form action="">
+					<input type="text" class="form-control" placeholder="Что хотите найти?">
+				</form>
+				<a href="#" class="cancel__text">Отмена</a>
+				<div class="clearfix"></div>
+			</div>
+			<div class="search-mobile-btns">
+				<a href="#" class="search-mobile-btns__btn search-mobile-btns__btn_active">Новости</a>
+				<a href="#" class="search-mobile-btns__btn">Каталог</a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- END POP SEARCH -->
+
+		<!-- END POP-UP -->
+	</div>
+
+	<!-- scripts -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmKEG4iUpu8Hj-Pao0ejUkTK6s53eQkk4&callback=initMap" async defer></script>
+
+	<script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+	
+    <script type="text/javascript" src="js/custom-google-map.js"></script>
+
+	<script type="text/javascript" src="libs/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

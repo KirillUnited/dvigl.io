@@ -1,0 +1,581 @@
+.company-page_head-wrap{
+	max-width: 821px;
+	margin: 58px auto 0;
+}
+.company-page_head-info{
+	float: right;
+}
+.company-page_head-logo{
+	display: inline-block;
+}
+.company-page_head-stars img{
+	margin-right: 1px;
+}
+.company-page_head-stars img:last-child{
+	margin-right: 0;
+}
+.company-page_head-stars, .company-page_head-stars-count{
+	display: inline-block;
+    vertical-align: text-top;
+}
+.company-page_head-stars-count{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	line-height: normal;
+}
+.company-page_head-stars{
+	margin-right: 6px;
+}
+.company-page_head-site{
+	text-align: right;
+}
+.company-page_head-site a{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	line-height: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+.company-page_head-rating{
+	margin-bottom: 8px;
+}
+.company-page_head{
+	padding-bottom: 17px;
+	border-bottom: 1px solid #bbb;
+	margin-bottom: 16px;
+}
+.company-page_desc-adress{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 25px;
+}
+.company-page_desc-phone{
+	margin-bottom: 25px;
+}
+.company-page_desc-phone a{
+	display: block;
+	font-family: "MyriadProSemiBold";
+	color: #000;
+	font-size: 18px;
+	line-height: 1.25;
+}
+.company-page_desc-time{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #000000;
+	line-height: 1.25;
+}
+.company-page_description-text{
+	display: inline-block;
+	margin-top: 36px;
+}
+.company_map{
+	display: inline-block;
+	max-width: 400px; 
+	max-height: 220px;
+}
+.company-page_map{
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-top: 5px;
+	height: 220px;
+}
+.company-page_map-btn{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+	border: none;
+	background-color: #6ea4bc;
+	text-decoration: underline;
+	font-family: "MyriadProLight";
+	font-size: 15px;
+	color: #ffffff;
+	width: 132px;
+	height: 35px;
+}
+.company-page_description{
+	padding-bottom: 14px;
+	border-bottom: 1px solid #bbb; 
+	margin-bottom: 16px;
+}
+.company-page_content-wrap{
+	width: calc(100% - 260px);
+	margin-bottom: 60px;
+}
+.company_arrow_prev, .company_arrow_next{
+	position: absolute;
+	top: 50%;
+	width: 15px;
+	height: 30px;
+	z-index: 2;
+	margin-top: -15px;
+	cursor: pointer;
+}
+.company_arrow_prev{
+	background: url('../img/com-prev.png');
+	left: 14px;
+}
+.company_arrow_next{
+	background: url('../img/com-next.png');
+	right: 14px;
+}
+.company-page_content-text ul{
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 22px;
+}
+.company-page_content-text ul li{
+
+}
+.company-page_content-text ul li:before{
+	content: "-";
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #000;
+	margin-right: 4px;
+}
+.company-page_content-text-bold{
+	font-family: "MyriadProSemiBold";
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 1px;
+}
+.company-page_content-slider{
+	margin-bottom: 19px;
+}
+.company-page_content-text{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #000;
+	line-height: normal;
+}
+.company-page_content_img-item{
+	display: table-cell;
+	padding-right: 8px;
+}
+.company-page_content_img-item img{
+	max-width: 100%;
+	height: auto;
+}
+.company-page_content-text p{
+	margin: 0;
+}
+.company-page_content_img-block{
+	margin: 23px 0;
+	display: table;
+}
+.company-page_similar-item{
+	position: relative;
+	height: 150px;
+	width: 25%;
+	display: table-cell;
+	vertical-align: top;
+	margin: 0;
+	padding: 0 7px 0 0;
+}
+.company-page_similar-wrap{
+	width: 100%;
+}
+.company-page_similar-item a{
+	display: block;
+	width: 100%;
+	height: 100%;;
+}
+.company-page_similar{
+	max-width: 1028px;
+	margin-bottom: 57px;
+}
+.company-page_similar-item-logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 55px;
+	background-color: #ffffff;
+}
+.company-page_similar-item-logo img{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	margin: 0 auto;
+}
+.company-page_similar h2{
+	font-family: "MyriadProBold";
+	font-size: 18px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.company-page_reviews_leave-your-img{
+	display: inline-block;
+}
+.company-page_reviews_leave-your-assessment-left{
+	border-radius: 5px;
+	background-color: rgb(240, 241, 241);
+	padding: 10px 0 10px 29px;;
+	overflow: hidden;
+}
+.company-page_reviews_leave-your-assessment-left a{
+	display: block;
+	border-radius: 5px;
+	background-color: rgb(66, 133, 244);
+	width: 137px;
+	text-align: center;
+	padding: 12px 0;
+	border: none;
+	font-family: "MyriadProLight";
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #ffffff;
+	float: right;
+	margin-right: 10px
+}
+.company-page_reviews_leave-your-assessment-left span {
+	font-family: "MyriadProRegular";
+	font-size: 18px;
+	color: #000;
+	display: inline-block;
+	margin-top: 9px;
+}
+.company-page_reviews_leave-your-stars{
+	display: inline-block;
+	vertical-align: middle;
+}
+.company-page_reviews_leave-your-assessment{
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 96px);
+	margin-left: 28px;
+}
+.company-page_reviews-like{
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../img/like.png');
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 17px;
+	margin-right: 7px;
+}
+.company-page_reviews-like.active {
+	background-image: url('../img/like-active.png');
+}
+.company-page_reviews-dislike {
+	display: inline-block;
+	vertical-align: bottom;
+	background-image: url('../img/dislike.png');
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 17px;
+	margin-bottom: 4px;
+}
+.company-page_reviews-dislike.active{
+	background-image: url('../img/dislike-active.png');
+}
+.company-page_like-count{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #078a01;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+.company-page_dislike-count {
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #b50101;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+.company-page_reviews_item{
+	display: table;
+	padding-bottom: 32px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #eaeaea;
+}
+.company-page_reviews_item-img, .company-page_reviews_item-info{
+	display: table-cell;
+	vertical-align: top;
+}
+.company-page_reviews_item-img{
+	padding-right: 29px;
+	text-align: center;
+}
+.company-page_reviews_leave-your{
+	margin-bottom: 40px;
+}
+.company-page_reviews_item-head p{
+	font-family: "MyriadProBold";
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.company-page_reviews_item-message p{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	line-height: 22px
+}
+.company-page_reviews{
+	max-width: 830px;;
+}
+.company-page_reviews_item-minuses .company-page_reviews_item-minuses-head {
+	font-size: 18px;
+	color: #b50101;
+}
+.company-page_reviews_item-minuses{
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	margin-bottom: 9px;
+}
+.company-page_reviews_item-reply-text{
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "MyriadProLight";
+	color: #bbbbbb;
+	font-size: 18px;
+}
+.company-page_reviews_item-reply-text::after {
+	content: url('../img/dott.png');
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: -3px;
+	margin-left: 11px;
+	margin-right: 10px;
+}
+.company-page_reviews_item-time{
+	white-space: nowrap;
+	font-family: "MyriadProLight";
+	color: #bbbbbb;
+	font-size: 14px;
+	line-height: normal;
+}
+.company-page_reviews_item-name{
+	font-size: 16px;
+	color: #000;
+	margin-top: 4px;
+	margin-bottom: 0;
+	line-height: normal;
+}
+.company-page_starts-pat{
+	position: relative;
+	background: url("../img/123.png");
+	width: 120px;
+	height: 20px;
+	margin-bottom: 6px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.company-page_starts-pat-back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	background: url("../img/active-star.png");
+	cursor: pointer;
+}
+.company-page_reviews_item-answer{
+	margin-left: 100px;
+	margin-bottom: 32px;
+}
+.company-page_reviews_item-main{
+	margin-bottom: 32px;
+}
+.company-page_watch-more{
+	text-align: center;
+}
+.company-page_watch-more a{
+	display: block;
+	border: 1px solid rgb(66, 133, 244);
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: "MyriadProLight";
+	font-size: 16px;
+	color: rgb(66, 133, 244);
+	padding: 13px 0;
+}
+.latest_news-wrap{
+	display: table;
+	width: 100%;
+}
+.latest_news-item{
+	width: 25%;
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 7px 0 0;
+}
+.company-page_reviews_item:last-child{
+	border: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+.latest_news-item img{
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 7px;
+}
+.company-page_content{
+	border-bottom: 1px solid rgb(187, 187, 187);
+	padding-bottom: 40px;
+	margin-bottom: 37px;
+}
+.latest_news{
+	max-width: 1022px;
+	margin-bottom: 26px;
+}
+.latest_news h2{
+	font-family: "MyriadProBold";
+	font-size: 18px;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+.latest_news p{
+	font-size: 16px;
+	color: #052346;
+	line-height: 17px;
+}
+.company-page_banner img{
+	max-width: 100%;
+	height: auto;
+}
+.company-page_reviews_add textarea{
+	resize: none;
+	width: 100%;
+	border: 1px solid rgb(187, 187, 187);
+	border-top: none;
+	border-bottom: none;
+	outline: none;
+	margin-bottom: -6px;
+	max-height: 124px;
+}
+.company-page_reviews_your-rew-title{
+	border: 1px solid rgb(187, 187, 187);
+	border-radius: 5px 5px 0 0;
+	background-color: #f0f1f1;
+}
+.company-page_reviews_your-rew-title p{
+	font-size: 18px;
+	color: #000;
+	margin-left: 29px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.company-page_reviews_your-pros .company-page_reviews_your-rew-title p {
+	color: #078a01;
+}
+.company-page_reviews_your-pros .company-page_reviews_your-rew-title{
+	border-radius: 0;
+}
+.company-page_reviews_your-minuses .company-page_reviews_your-rew-title p {
+	color: #b50101;
+}
+.company-page_reviews_your-minuses .company-page_reviews_your-rew-title {
+	border-radius: 0;
+}
+.company-page_reviews_your-bottom{
+	border: 1px solid rgb(187, 187, 187);
+	border-radius: 0 0 5px 5px;
+	background-color: #f0f1f1;
+}
+.company-page_reviews_your-bottom-stars{
+	display: inline-block;
+}
+.company-page_reviews_your-bottom-stars{
+	font-size: 18px;
+	margin-left: 29px;
+	margin-top: 9px;
+}
+.company-page_reviews_your-bottom-button button{
+	border-radius: 5px;
+	background-color: #4285f4;
+	border: none;
+	font-size: 16px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 11px 23px;
+}
+.company-page_reviews_your-bottom-button{
+	float: right;
+	margin-right: 9px;
+}
+.company-page_reviews_your-bottom-wrap{
+	overflow: hidden;
+	padding: 9px 0;
+}
+.company-page_reviews_add{
+	margin-left: 96px;
+	display: none;
+}
+.company-page_content-wrap .company-page_banner {
+	position: absolute;
+	right: 0;
+}
+.company-page{
+	max-width: 1022px;
+	margin: 0 auto;
+	position: relative;
+}
+.company-page_description-wrap{
+	max-width: 821px;
+	margin: 0 auto;
+}
+.company-page_reviews h2{
+	font-family: "MyriadProBold";
+	font-size: 18px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.company-page_reviews_item-info-stars .company-page_starts-pat {
+	margin-left: 0px;
+}
+.company_mobile-site a,
+.company-page_content-hidden,
+.company_mobile-communications {
+	display: none;
+}
+.company-page_my-company a{
+	display: inline-block;
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #307798;
+	border: 1px solid rgb(48, 119, 152);
+	border-radius: 5px;
+	padding: 7px 16px;
+}
+.company-page_not-active .company-page_head,
+.company-page_not-active .company-page_description-wrap {
+	max-width: calc(100% - 262px);
+	margin: 30px 0 0 0;
+}
+.company-page_not-active h1{
+	margin-top: 27px;
+	margin-bottom: 5px;
+}
+.company-page_not-active .company-page_head-info {
+	margin-top: 18px;
+}
+.company-page_not-active .company-page_description-wrap{
+	margin-top: 15px;
+}
+.company-page_not-active .company-page_description-text{
+	margin-top: 28px;
+}
+.company-page_not-active .company-page_description {
+	padding-bottom: 22px;
+	margin-bottom: 57px;
+}
+.company-page_not-active .company-page_banner-not-active {
+	position: absolute;
+	right: 0;
+	top: -31px;
+}
+.company-page_not-active .company-page_description-wrap{
+	overflow: hidden;
+}
+.company-page_reviews_item-answer{
+	display: none;
+}
