@@ -194,8 +194,13 @@
 }
 
 .main-block__item_row .main-block__item-content p,
-.main-block__item-content_gallery .lightgallery-wrap {
+.main-block__item-content_gallery .lightgallery-wrap,
+.main-block__item_row .main-block__item-content_description {
 	width: 94%;
+}
+
+.main-block__item_row .main-block__item-content_description {
+	display: block;
 }
 
 .main-block__item-content_gallery .main-block__gallery-image {
