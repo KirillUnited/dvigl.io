@@ -1,0 +1,8 @@
+@media (max-width: 992px) {
+    .fixed.user__block {
+        padding: 0;
+    }
+    .fixed.user__block_avatar:after {
+        display: none;
+    }
+}

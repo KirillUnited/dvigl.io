@@ -26,6 +26,7 @@
 }
 @media screen and (max-width: 1040px) {
   /*BEGIN POPUP*/
+  .popup,
   .popup__sign-up_company,
   .popup__edit-company_name,
   .popup__edit-company_worktime,
