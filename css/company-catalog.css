@@ -339,11 +339,16 @@
   display: inline-block;
   font-size: 16px;
   margin-right: -3px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .company-catalog__pagination-item a {
+  display: block;
   color: #000;
+  line-height: 36px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.company-catalog__pagination-item .page-num_active {
+  background-color: #ededed;
 }
 .company-catalog__pagination-item a.prev,
 .company-catalog__pagination-item a.next {
